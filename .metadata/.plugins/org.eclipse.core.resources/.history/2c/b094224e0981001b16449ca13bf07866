@@ -1,0 +1,14 @@
+package connect.java.to.mysql;
+
+import java.sql.*;
+
+public class Datenbank {
+
+	public static void main(String[] args) {
+
+		String url = "jdbc:mysql://localhost:3306/test?useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Berlin";
+		String user = "root";
+		String password = "";
+	}
+
+}
